@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" id="body-svg-female">
+  <!-- Female Body Silhouette -->
+  
+  <!-- HEAD -->
+  <ellipse cx="150" cy="50" rx="28" ry="34" fill="#2a2a3e" stroke="#4a4a6a" stroke-width="1.5"/>
+  <!-- Hair hint -->
+  <path d="M 122 38 Q 112 20 118 42" fill="#1a1a2e" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 178 38 Q 188 20 182 42" fill="#1a1a2e" stroke="#3a3a5a" stroke-width="1"/>
+  <!-- Neck -->
+  <rect x="140" y="80" width="20" height="18" rx="4" fill="#2a2a3e" stroke="#4a4a6a" stroke-width="1.5"/>
+  
+  <!-- SHOULDERS - Slimmer for female -->
+  <ellipse cx="100" cy="112" rx="18" ry="12" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1" class="muscle-zone" data-muscle="shoulders"/>
+  <ellipse cx="200" cy="112" rx="18" ry="12" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1" class="muscle-zone" data-muscle="shoulders"/>
+  
+  <!-- CHEST / BUST AREA -->
+  <path d="M 112 98 Q 150 94 188 98 L 188 148 Q 150 152 112 148 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="chest"/>
+  <!-- Bust curves (female) -->
+  <ellipse cx="132" cy="132" rx="18" ry="16" fill="#252540" stroke="#4a4a6a" stroke-width="1"/>
+  <ellipse cx="168" cy="132" rx="18" ry="16" fill="#252540" stroke="#4a4a6a" stroke-width="1"/>
+  <!-- Chest division -->
+  <line x1="150" y1="102" x2="150" y2="148" stroke="#4a4a6a" stroke-width="0.8" stroke-dasharray="3,2"/>
+  
+  <!-- UPPER ARMS (slimmer) -->
+  <!-- Left -->
+  <path d="M 84 102 Q 72 130 76 165 Q 85 167 95 164 Q 102 132 112 102 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="biceps"/>
+  <!-- Right -->
+  <path d="M 216 102 Q 228 130 224 165 Q 215 167 205 164 Q 198 132 188 102 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="biceps"/>
+  
+  <!-- FOREARMS -->
+  <path d="M 76 167 Q 68 198 72 232 Q 80 235 89 232 Q 95 200 95 167 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  <path d="M 224 167 Q 232 198 228 232 Q 220 235 211 232 Q 205 200 205 167 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  
+  <!-- HANDS -->
+  <ellipse cx="73" cy="242" rx="9" ry="11" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  <ellipse cx="227" cy="242" rx="9" ry="11" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  
+  <!-- TORSO with hourglass -->
+  <path d="M 112 146 Q 108 175 112 200 Q 118 220 108 248 Q 130 258 150 260 Q 170 258 192 248 Q 182 220 188 200 Q 192 175 188 146 Q 150 152 112 146 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5"/>
+  
+  <!-- ABS clickable zone (inside torso) -->
+  <path d="M 118 152 Q 115 185 118 205 Q 122 220 115 248 Q 133 256 150 258 Q 167 256 185 248 Q 178 220 182 205 Q 185 185 182 152 Q 150 157 118 152 Z" fill="#1a1a2e" stroke="none" class="muscle-zone" data-muscle="abs"/>
+  <!-- Abs subtle lines -->
+  <line x1="150" y1="155" x2="150" y2="258" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 120 183 Q 150 186 180 183" fill="none" stroke="#3a3a5a" stroke-width="0.8"/>
+  <path d="M 118 210 Q 150 213 182 210" fill="none" stroke="#3a3a5a" stroke-width="0.8"/>
+  <path d="M 117 234 Q 150 237 183 234" fill="none" stroke="#3a3a5a" stroke-width="0.8"/>
+  
+  <!-- Trapezius area -->
+  <path d="M 112 98 Q 130 94 150 93 Q 170 94 188 98 Q 172 108 150 109 Q 128 108 112 98 Z" fill="#1a1a2e" stroke="#4a4a6a" stroke-width="1" class="muscle-zone" data-muscle="back"/>
+  
+  <!-- HIPS - Wider for female -->
+  <path d="M 108 248 Q 88 268 90 300 L 148 306 L 152 306 L 210 300 Q 212 268 192 248 Q 150 260 108 248 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.5"/>
+  
+  <!-- GLUTES (visible from front) -->
+  <path d="M 88 260 Q 82 288 90 300 Q 115 304 148 306" fill="#1a1a2e" stroke="none" class="muscle-zone" data-muscle="glutes"/>
+  <path d="M 212 260 Q 218 288 210 300 Q 185 304 152 306" fill="#1a1a2e" stroke="none" class="muscle-zone" data-muscle="glutes"/>
+  <!-- Glute hint from front (hip curves) -->
+  <path d="M 90 268 Q 86 290 90 300" fill="none" stroke="#4a5080" stroke-width="1.5"/>
+  <path d="M 210 268 Q 214 290 210 300" fill="none" stroke="#4a5080" stroke-width="1.5"/>
+  
+  <!-- UPPER LEGS - More curvaceous -->
+  <!-- Left thigh -->
+  <path d="M 90 298 Q 80 342 84 395 Q 102 400 118 395 Q 126 345 148 306 Q 120 303 90 298 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="legs"/>
+  <!-- Right thigh -->
+  <path d="M 210 298 Q 220 342 216 395 Q 198 400 182 395 Q 174 345 152 306 Q 180 303 210 298 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="legs"/>
+  
+  <!-- Thigh definition -->
+  <path d="M 98 325 Q 104 360 106 393" fill="none" stroke="#3a3a5a" stroke-width="0.8"/>
+  <path d="M 202 325 Q 196 360 194 393" fill="none" stroke="#3a3a5a" stroke-width="0.8"/>
+  
+  <!-- LOWER LEGS / CALVES -->
+  <path d="M 84 398 Q 82 445 85 492 Q 97 496 110 492 Q 118 448 118 398 Q 102 400 84 398 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  <path d="M 216 398 Q 218 445 215 492 Q 203 496 190 492 Q 182 448 182 398 Q 198 400 216 398 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  
+  <!-- Calf curves -->
+  <path d="M 86 425 Q 100 433 116 425" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 214 425 Q 200 433 184 425" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  
+  <!-- FEET -->
+  <ellipse cx="97" cy="502" rx="13" ry="9" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  <ellipse cx="203" cy="502" rx="13" ry="9" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  
+  <!-- TRICEPS side hint -->
+  <path d="M 84 102 Q 76 130 76 165" fill="none" stroke="#3a3a5a" stroke-width="2" class="muscle-zone" data-muscle="triceps" stroke-linecap="round"/>
+  <path d="M 216 102 Q 224 130 224 165" fill="none" stroke="#3a3a5a" stroke-width="2" class="muscle-zone" data-muscle="triceps" stroke-linecap="round"/>
+  
+  <!-- Face -->
+  <ellipse cx="139" cy="47" rx="3.5" ry="4" fill="#3a3a5a" opacity="0.5"/>
+  <ellipse cx="161" cy="47" rx="3.5" ry="4" fill="#3a3a5a" opacity="0.5"/>
+  <path d="M 141 63 Q 150 69 159 63" fill="none" stroke="#3a3a5a" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Anatomy App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Fitness Anatomy</h1>
+
+    <div class="controls">
+      <button id="maleBtn">Masculino</button>
+      <button id="femaleBtn">Femenino</button>
+    </div>
+  </header>
+
+  <main class="app-container">
+
+    <!-- CUERPO HUMANO -->
+    <section class="body-section">
+      <img id="bodyImage" src="body-male.svg" alt="Cuerpo humano">
+
+      <!-- zonas clicables (ejemplo básico) -->
+      <div class="muscle" id="chest">Pecho</div>
+      <div class="muscle" id="back">Espalda</div>
+      <div class="muscle" id="biceps">Bíceps</div>
+      <div class="muscle" id="triceps">Tríceps</div>
+      <div class="muscle" id="abs">Abdomen</div>
+      <div class="muscle" id="legs">Piernas</div>
+    </section>
+
+    <!-- PANEL EJERCICIOS -->
+    <section class="panel">
+      <h2 id="muscleTitle">Selecciona un músculo</h2>
+      <div id="exerciseList"></div>
+    </section>
+
+  </main>
+
+  <script src="exercises.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

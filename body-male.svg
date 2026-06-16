@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" id="body-svg-male">
+  <!-- Male Body Silhouette -->
+  
+  <!-- HEAD -->
+  <ellipse cx="150" cy="52" rx="32" ry="38" fill="#2a2a3e" stroke="#4a4a6a" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="138" y="86" width="24" height="20" rx="4" fill="#2a2a3e" stroke="#4a4a6a" stroke-width="1.5"/>
+  
+  <!-- SHOULDERS (deltoids area) -->
+  <ellipse cx="95" cy="120" rx="22" ry="15" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1" class="muscle-zone" data-muscle="shoulders"/>
+  <ellipse cx="205" cy="120" rx="22" ry="15" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1" class="muscle-zone" data-muscle="shoulders"/>
+  
+  <!-- CHEST -->
+  <path d="M 108 105 Q 150 100 192 105 L 195 155 Q 150 160 105 155 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="chest"/>
+  <!-- Chest division line -->
+  <line x1="150" y1="108" x2="150" y2="158" stroke="#4a4a6a" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <!-- Pec lower curves -->
+  <path d="M 108 152 Q 130 165 150 160" fill="none" stroke="#3a3a5a" stroke-width="1.2"/>
+  <path d="M 192 152 Q 170 165 150 160" fill="none" stroke="#3a3a5a" stroke-width="1.2"/>
+  
+  <!-- UPPER ARMS -->
+  <!-- Left bicep -->
+  <path d="M 78 112 Q 65 140 70 175 Q 80 178 92 175 Q 100 142 108 112 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="biceps"/>
+  <!-- Right bicep -->
+  <path d="M 222 112 Q 235 140 230 175 Q 220 178 208 175 Q 200 142 192 112 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="biceps"/>
+  
+  <!-- FOREARMS -->
+  <path d="M 71 178 Q 60 210 65 245 Q 74 248 84 245 Q 91 212 92 178 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  <path d="M 229 178 Q 240 210 235 245 Q 226 248 216 245 Q 209 212 208 178 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  
+  <!-- HANDS -->
+  <ellipse cx="67" cy="256" rx="10" ry="13" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  <ellipse cx="233" cy="256" rx="10" ry="13" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  
+  <!-- TORSO / ABS area background -->
+  <path d="M 107 155 Q 105 200 108 260 Q 130 268 150 268 Q 170 268 192 260 Q 195 200 193 155 Q 150 162 107 155 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5"/>
+  
+  <!-- ABS clickable zone -->
+  <path d="M 115 162 Q 113 218 116 258 Q 135 266 150 266 Q 165 266 184 258 Q 187 218 185 162 Q 150 168 115 162 Z" fill="#1a1a2e" stroke="none" class="muscle-zone" data-muscle="abs"/>
+  <!-- Abs grid lines -->
+  <line x1="150" y1="162" x2="150" y2="266" stroke="#3a3a5a" stroke-width="1.2"/>
+  <path d="M 118 190 Q 150 193 182 190" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 117 215 Q 150 218 183 215" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 117 240 Q 150 243 183 240" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  
+  <!-- BACK label zones (visible on front but representing upper back/traps) -->
+  <!-- Trapezius area -->
+  <path d="M 108 105 Q 130 100 150 100 Q 170 100 192 105 Q 175 115 150 116 Q 125 115 108 105 Z" fill="#1a1a2e" stroke="#4a4a6a" stroke-width="1" class="muscle-zone" data-muscle="back"/>
+  
+  <!-- HIPS -->
+  <path d="M 108 258 Q 95 275 100 300 L 148 302 L 152 302 L 200 300 Q 205 275 192 258 Q 150 266 108 258 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.5"/>
+  
+  <!-- UPPER LEGS -->
+  <!-- Left quad -->
+  <path d="M 100 298 Q 90 340 93 390 Q 110 395 128 390 Q 135 342 148 302 Q 125 300 100 298 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="legs"/>
+  <!-- Right quad -->
+  <path d="M 200 298 Q 210 340 207 390 Q 190 395 172 390 Q 165 342 152 302 Q 175 300 200 298 Z" fill="#1e1e32" stroke="#4a4a6a" stroke-width="1.5" class="muscle-zone" data-muscle="legs"/>
+  
+  <!-- Quad lines -->
+  <path d="M 115 320 Q 121 360 122 388" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 185 320 Q 179 360 178 388" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  
+  <!-- GLUTES (visible from front as hip shape) -->
+  <path d="M 100 270 Q 92 295 100 298 Q 125 300 148 302" fill="#1a1a2e" stroke="none" class="muscle-zone" data-muscle="glutes"/>
+  <path d="M 200 270 Q 208 295 200 298 Q 175 300 152 302" fill="#1a1a2e" stroke="none" class="muscle-zone" data-muscle="glutes"/>
+  
+  <!-- LOWER LEGS -->
+  <path d="M 93 393 Q 90 440 93 490 Q 104 494 116 490 Q 128 443 128 393 Q 110 395 93 393 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  <path d="M 207 393 Q 210 440 207 490 Q 196 494 184 490 Q 172 443 172 393 Q 190 395 207 393 Z" fill="#252538" stroke="#4a4a6a" stroke-width="1.2"/>
+  
+  <!-- Calves muscle hint -->
+  <path d="M 95 420 Q 112 428 125 420" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  <path d="M 205 420 Q 188 428 175 420" fill="none" stroke="#3a3a5a" stroke-width="1"/>
+  
+  <!-- FEET -->
+  <ellipse cx="104" cy="500" rx="14" ry="10" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+  <ellipse cx="196" cy="500" rx="14" ry="10" fill="#252538" stroke="#4a4a6a" stroke-width="1"/>
+
+  <!-- TRICEPS (back of upper arm, visible sides) -->
+  <path d="M 78 112 Q 70 140 70 175" fill="none" stroke="#3a3a5a" stroke-width="2.5" class="muscle-zone" data-muscle="triceps" stroke-linecap="round"/>
+  <path d="M 222 112 Q 230 140 230 175" fill="none" stroke="#3a3a5a" stroke-width="2.5" class="muscle-zone" data-muscle="triceps" stroke-linecap="round"/>
+  
+  <!-- Face features (subtle) -->
+  <ellipse cx="138" cy="50" rx="4" ry="5" fill="#3a3a5a" opacity="0.5"/>
+  <ellipse cx="162" cy="50" rx="4" ry="5" fill="#3a3a5a" opacity="0.5"/>
+  <path d="M 140 68 Q 150 74 160 68" fill="none" stroke="#3a3a5a" stroke-width="1.5"/>
+</svg>
